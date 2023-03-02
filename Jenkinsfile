@@ -6,7 +6,7 @@ pipeline {
       stage("build"){
         
           steps{
-             echo 'Deploying application...'
+             bat 'echo 'Deploying application...''
           }
       }
       stage("test"){

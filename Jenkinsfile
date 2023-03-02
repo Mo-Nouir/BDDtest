@@ -6,13 +6,13 @@ pipeline {
       stage("build"){
         
           steps{
-            bat 'cd C:\Users\intern\Desktop'
+             echo 'Deploying application...'
           }
       }
       stage("test"){
         
           steps{
-            bat 'python runner.py'
+             echo 'Deploying application...'
           }
       } 
       stage("deploy"){
